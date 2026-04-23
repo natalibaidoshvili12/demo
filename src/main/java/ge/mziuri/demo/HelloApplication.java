@@ -21,10 +21,6 @@ public class HelloApplication extends Application {
         button.setOnAction(event -> {
             System.out.println("Hello World " + counter.incrementAndGet());
         });
-        stage.setX(100);
-        stage.setY(100);
-        stage.setWidth(320);
-        stage.setHeight(240);
         stage.show();
         stage.setTitle("Hello!");
         stage.setScene(scene);
