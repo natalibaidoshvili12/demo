@@ -13,4 +13,6 @@ module ge.mziuri.demo {
 
     opens ge.mziuri.demo to javafx.fxml;
     exports ge.mziuri.demo;
+    exports ge.mziuri.demo.model;
+    opens ge.mziuri.demo.model to javafx.fxml;
 }

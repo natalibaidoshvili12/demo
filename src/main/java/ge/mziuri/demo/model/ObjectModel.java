@@ -1,4 +1,4 @@
-package ge.mziuri.demo;
+package ge.mziuri.demo.model;
 
 import javafx.beans.property.SimpleStringProperty;
 
